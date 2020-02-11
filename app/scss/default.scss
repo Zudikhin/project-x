@@ -5,6 +5,9 @@ ul {
 }
 a {
   text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }
 button:focus {
   outline: none;
