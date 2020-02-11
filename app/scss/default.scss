@@ -1,0 +1,33 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+button:focus {
+  outline: none;
+}
+.text {
+  font-family: "Arial";
+  font-size: 15px;
+}
+.title {
+  font-family: "Georgia";
+  font-size: 35px;
+}
+.btn {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  & a {
+    font-family: "Georgia";
+    color: black;
+    font-size: 15px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

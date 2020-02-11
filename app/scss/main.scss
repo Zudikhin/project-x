@@ -1,0 +1,23 @@
+.main {
+  background: url(../img/main/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main__content {
+  margin-top: 50px;
+  & h2 {
+    font-family: "Georgia";
+    font-size: 22px;
+    text-align: center;
+    color: white;
+  }
+  & p {
+    text-align: center;
+    color: white;
+  }
+  & button {
+    display: block;
+    margin: 0 auto;
+    background-color: #f1cdb3;
+  }
+}
